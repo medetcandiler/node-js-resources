@@ -1,0 +1,8 @@
+2024/01/02	19:50:33	8eea564a-fca4-4e3a-882e-4fd7dc1ef068	/new-page.html	GET
+2024/01/02	19:50:33	04abf2f9-587a-46cd-b69d-5431fc881bd7	/new-page.html	GET
+2024/01/02	19:50:33	97701532-d1cb-4c69-b514-a0fd155454e8	/css/style.css	GET
+2024/01/02	19:50:33	660da2c3-b703-4ad0-a97f-c7cf8d37df7f	/css/style.css	GET
+2024/01/02	19:50:33	a2a65adc-43aa-4413-84f2-8494bac4df4b	/img/img1.png	GET
+2024/01/02	19:50:33	153e948f-4824-400e-84c8-c170a0e6faeb	/img/img1.png	GET
+2024/01/02	19:50:33	81d312ca-30d9-467b-8fd0-4e0839627822	/favicon.ico	GET
+2024/01/02	19:50:33	6b1acb4d-ca60-4ae5-9145-6a64d670160d	/favicon.ico	GET
