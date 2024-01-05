@@ -530,3 +530,10 @@
 20240105	14:32:42	52360b58-7e3c-4e83-9d7b-225429d03386	POST undefined /auth
 20240105	14:32:45	7fb46242-f250-49d6-ae7f-4a956b5ab7ea	POST undefined /auth
 20240105	14:32:48	e871fb18-fc08-4495-82d2-44fe76b55a65	POST undefined /auth
+20240105	18:22:46	f764130c-f9ea-4aa8-8ade-6a0207121511	POST undefined /register
+20240105	18:23:08	33d3372d-a7ac-485f-a60a-df450422cd48	POST undefined /register
+20240105	18:28:39	1f461357-ff39-43bd-a149-f07f15460f56	GET undefined /
+20240105	18:28:39	a83f106e-f125-480c-8512-6a9e215dfd30	GET undefined /css/style.css
+20240105	18:28:40	694255d4-5735-4d80-bf78-3605a34afd99	GET undefined /users
+20240105	18:28:40	1ca7bc3d-fe0f-466a-b3a7-a8024dd85e1b	GET undefined /favicon.ico
+20240105	18:28:50	1a0b096b-28ee-48c9-843e-26e1d4e24ee2	GET undefined /users
