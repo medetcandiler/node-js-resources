@@ -61,3 +61,4 @@
 20240105	22:54:38	ebf32645-feb6-40e5-b32c-9738a3e47730	POST	http://localhost:5173	/auth
 20240105	22:55:55	378bcb19-e5d1-426c-84e1-3874290efe5a	OPTIONS	http://localhost:5173	/auth
 20240105	22:55:55	427b3876-7a08-4e51-8f52-61d08f51fb88	POST	http://localhost:5173	/auth
+20240106	00:05:25	6b368721-5b2e-4700-a445-350db3ffe4ab	POST	undefined	/auth
