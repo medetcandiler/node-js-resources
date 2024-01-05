@@ -3,7 +3,6 @@ const data = {
   setEmployees: function (data) { this.employess = data }
 };
 
-
 const getAllEmployees = (req, res) => {
   res.json(data.employess)
 }
