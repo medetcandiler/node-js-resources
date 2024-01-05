@@ -1,8 +1,0 @@
-20240103	20:10:48	f941eda7-802e-4c97-be11-6a873bdb6f1c	Error Not allowed by CORS
-20240103	20:10:49	72be19da-3171-4226-960e-f7cd17e26e37	Error Not allowed by CORS
-20240103	20:11:01	52d28d11-9342-48e0-8257-65d03a9f2d56	Error Not allowed by CORS
-20240103	20:11:17	75840398-e5f9-4435-8c7d-196ef8dad424	Error Not allowed by CORS
-20240103	20:11:20	2bf9a334-1125-4b3e-b73a-2187fd2cf52e	Error Not allowed by CORS
-20240103	20:12:00	a7a3a841-eae2-4ebe-9cfb-80aca87d7108	Error Not allowed by CORS
-20240104	15:27:31	7470f6ae-7b53-47a4-a732-cb3fe6f6789c	undefined undefined
-20240104	15:27:41	98d10e10-1730-4a86-9566-d1d8eef813e2	undefined undefined
