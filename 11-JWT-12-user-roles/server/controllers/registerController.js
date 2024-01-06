@@ -15,13 +15,7 @@ const handleNewUser = async (req, res) => {
       "username": user,
       "password": hashedPwd
     }); 
-    // second way to create and store new user 
-    // const newUser = new User();
-    // newUser.username = user;
-    // newUser.password = pwd;
-    // const result2 = await newUser.save()
     console.log(result);
-
     res.status(201).json({ 'success': `New user ${user} created!` });
   } catch (err) {
     res.status(500).json({ 'message': err.message });
