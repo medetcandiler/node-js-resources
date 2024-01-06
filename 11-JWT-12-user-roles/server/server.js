@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -8,7 +9,12 @@ const errorHandler = require('./middleware/errorHandler');
 const verifyJWT = require('./middleware/verifyJWT');
 const cookieParser = require('cookie-parser');
 const credentials = require('./middleware/credentials');
+const mongoose = require('mongoose');
+const connectDB = require('./config/dbConnect');
 const PORT = process.env.PORT || 3500;
+
+//connect to database from the first line (we do not want to listen our app if mongodb is not connected) (did that at the bottom of the server file)
+connectDB();
 
 // custom middleware logger
 app.use(logger);
@@ -55,4 +61,7 @@ app.all('*', (req, res) => {
 
 app.use(errorHandler);
 
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+mongoose.connection.once('open', () => {
+  console.log('Connected to mongodb');
+  app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+})
