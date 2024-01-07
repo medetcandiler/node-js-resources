@@ -6,10 +6,10 @@ const handleRefreshToken = async (req, res) => {
   if (!cookies?.jwt) return res.sendStatus(401);
   const refreshToken = cookies.jwt;
 
-  const foundUser = await User.findOne({ refreshToken })
+  const foundUser = await User.findOne({ refreshToken }).exec(); // exec stands for execute().
   if (!foundUser) return res.sendStatus(403); //Forbidden 
   // evaluate jwt 
-  jwt.verify(
+  jwt.verify( 
     refreshToken,
     process.env.REFRESH_TOKEN_SECRET,
     (err, decoded) => {
